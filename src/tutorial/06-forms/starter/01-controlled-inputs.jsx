@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const ControlledInputs = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
 
   // const handleChange = (e) => {
   // console.log(e.target.name);
